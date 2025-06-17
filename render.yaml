@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: playwright-gasbot
+    env: docker
+    plan: free
+    autoDeploy: true
+    dockerfilePath: ./Dockerfile
+    buildCommand: ""
+    startCommand: ""
